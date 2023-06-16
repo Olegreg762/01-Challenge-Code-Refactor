@@ -20,30 +20,31 @@ h1 .seo {
     color: #d9dcd6;
 }
 
-/* Overall navigation bar style */
-nav {
+/* Overall header style */
+header{
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* Positions nav links to the right on the screen  */
-nav section {
+/* Positions links in header to the right on the screen  */
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    background-color: #2a607c;
 }
 
-/* Aligns nav bar links */
-nav section ul li {
+/* Aligns links in header */
+header section ul li {
     display: inline-block;
     margin-left: 25px;
     
 }
-/* Keeps nav bar links white */
+/* Keeps links in header white */
 a {
     color: #ffffff;
     text-decoration: none;
